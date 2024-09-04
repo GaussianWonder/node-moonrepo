@@ -1,0 +1,14 @@
+node:
+  version: '20.16'
+  packageManager: 'pnpm'
+  pnpm:
+    version: 9.7.0
+  addEnginesConstraint: true
+  syncPackageManagerField: true
+  inferTasksFromScripts: true
+typescript:
+  syncProjectReferencesToPaths: true
+  syncProjectReferences: true
+  includeProjectReferenceSources: true
+  includeSharedTypes: true
+  createMissingConfig: true

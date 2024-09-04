@@ -1,0 +1,11 @@
+.moon/cache
+.moon/docker
+
+# The `outDir` for declarations
+lib/
+# Build cache manifests
+*.tsbuildinfo
+
+node_modules/
+.env
+.vitest-reports

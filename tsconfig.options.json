@@ -1,0 +1,12 @@
+{
+  "extends": "tsconfig-moon/tsconfig.projects.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "target": "esnext"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "example",
+  "devDependencies": {
+    "vitest": "2.0.5"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:list": "vitest list",
+    "bench": "vitest bench > .vitest-reports/bench.txt",
+    "bench:report": "vitest bench --mergeReports .vitest-reports"
+  }
+}

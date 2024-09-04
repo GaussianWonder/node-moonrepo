@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "../../packages/example/**/*",
+    "src/**/*.ts"
+  ],
+  "references": [
+    {
+      "path": "../../packages/example"
+    }
+  ],
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "example/*": [
+        "../../packages/example/src/*"
+      ]
+    }
+  }
+}
