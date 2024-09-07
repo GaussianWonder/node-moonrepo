@@ -1,8 +1,8 @@
 node:
-  version: '20.16'
+  version: '20.17'
   packageManager: 'pnpm'
   pnpm:
-    version: 9.7.0
+    version: 9.9.0
   addEnginesConstraint: true
   syncPackageManagerField: true
   inferTasksFromScripts: true
