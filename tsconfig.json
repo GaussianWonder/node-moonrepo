@@ -6,13 +6,7 @@
       "path": "apps/example-app"
     },
     {
-      "path": "apps/node-sse"
-    },
-    {
       "path": "packages/example"
-    },
-    {
-      "path": "packages/sse"
     }
   ]
 }
