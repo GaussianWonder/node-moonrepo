@@ -5,20 +5,10 @@
     "outDir": "./lib",
     "baseUrl": ".",
     "paths": {
-      "sse/*": [
-        "src/*"
-      ],
-      "example/*": [
-        "src/*"
-      ]
+      "example/*": ["src/*"]
     }
   },
-  "include": [
-    "**/*",
-    "src/**/*.ts",
-    "tests/**/*.ts",
-    "benches/**/*.ts"
-  ],
+  "include": ["**/*", "src/**/*.ts", "tests/**/*.ts", "benches/**/*.ts"],
   "references": [
     {
       "path": "./tsconfig.build.json"
